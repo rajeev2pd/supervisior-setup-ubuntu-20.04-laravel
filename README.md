@@ -46,7 +46,7 @@ The content of the file should be as follows
 
 ## Step 5
 
-Add below line to .emv
+Add below line to .env
 
 ```
    SUPERVISE=enable
@@ -70,3 +70,15 @@ Once you have created the configuration, you can start the supervisor process. T
     sudo supervisorctl start laravel-worker:*
 ```
 
+## Step 8
+
+To see the running status of superviosor
+
+```
+    sudo supervisorctl status
+```
+It will will show the result as
+```
+    laravel-worker:laravel-worker_00   RUNNING   pid 3374359, uptime 3 days, 9:29:13
+    laravel-worker:laravel-worker_01   RUNNING   pid 3374360, uptime 3 days, 9:29:13
+```
