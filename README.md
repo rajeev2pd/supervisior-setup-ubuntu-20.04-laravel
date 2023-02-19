@@ -32,7 +32,7 @@ The content of the file should be as follows
 * stdout_logfile=/var/www/html/storage/logs/worker.log - log path
 
 ```
-  [program:laravel-worker]
+    [program:laravel-worker]
     process_name=%(program_name)s_%(process_num)02d
     command=php /var/www/html/artisan queue:work --tries=3
     autostart=true
