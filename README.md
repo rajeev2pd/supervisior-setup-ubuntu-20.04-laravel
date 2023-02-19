@@ -49,7 +49,7 @@ The content of the file should be as follows
 Add below line to .emv
 
 ```
-	  SUPERVISE=enable
+   SUPERVISE=enable
 ```
 
 ## Step 6
@@ -57,7 +57,7 @@ Add below line to .emv
 Install php-dev php-pear build-essential and libaio1
 
 ```
-	  sudo apt-get install php-dev php-pear build-essential libaio1
+   sudo apt-get install php-dev php-pear build-essential libaio1
 ```
 
 ## Step 7
