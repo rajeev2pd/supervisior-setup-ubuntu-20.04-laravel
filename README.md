@@ -52,15 +52,8 @@ Add below line to .env
    SUPERVISE=enable
 ```
 
+
 ## Step 6
-
-Install php-dev php-pear build-essential and libaio1
-
-```
-   sudo apt-get install php-dev php-pear build-essential libaio1
-```
-
-## Step 7
 
 Once you have created the configuration, you can start the supervisor process. To start supervisor you can run the following commands.
 
@@ -70,14 +63,14 @@ Once you have created the configuration, you can start the supervisor process. T
     sudo supervisorctl start laravel-worker:*
 ```
 
-## Step 8
+## Step 7
 
 To see the running status of superviosor
 
 ```
     sudo supervisorctl status
 ```
-It will will show the result as
+It will show the result as
 ```
     laravel-worker:laravel-worker_00   RUNNING   pid 3374359, uptime 3 days, 9:29:13
     laravel-worker:laravel-worker_01   RUNNING   pid 3374360, uptime 3 days, 9:29:13
